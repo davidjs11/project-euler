@@ -25,7 +25,6 @@ int main(int argc, char *argv[]) {
                 total_days++;
                 if (year >= 1901 && total_days % 7 == 0 && day == 1) {
                     result++;
-                    printf("%02d/%02d/%04d\n", day, month, year);
                 }
             }
 
